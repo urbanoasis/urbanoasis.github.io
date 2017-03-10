@@ -1681,7 +1681,7 @@
 		font-style: italic;
 	}
 
-	p {
+	p, .three-column {
 		margin: 0 0 2em 0;
 	}
 
@@ -1808,6 +1808,31 @@
 
 	hr {
 		border-bottom-color: rgba(144, 144, 144, 0.25);
+	}
+	
+	.three-column > div {
+		display: inline-block;
+		width: 33%;
+	}
+	
+	.circle-wrapper {
+		display: inline-block;
+	}
+	
+	.circle {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		overflow: hidden;
+		border: solid 3px #607D8B;
+		border-radius: 50%;
+	}
+	
+	.circle > img {
+		display: inline;
+		margin: 0 auto;
+		height: 100%;
+		width: auto;
 	}
 
 /* Box */
